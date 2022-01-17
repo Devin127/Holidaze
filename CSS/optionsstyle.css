@@ -1,0 +1,606 @@
+.item1 {
+    color:cornsilk;
+    background-color: darkblue;
+    padding: 10px;
+    align-content: center;
+}
+
+.item2, .item12 {
+   
+    background-color: grey;
+    padding: 10px;
+    align-content: center;
+}
+
+.item3, .item13 {
+    
+    background-color: grey;
+    padding: 10px;
+    align-content: center;
+}
+
+.item4, .item14 {
+    background-color: grey;
+    padding: 10px;
+    align-content: center;
+}
+
+.li {
+list-style: none;
+}
+
+.item5, .item15 {
+    
+    color: black;
+    background-color: grey;
+    padding: 10px;
+    align-content: center;
+}
+.item6, .item16 {
+    
+    color: black;
+    background-color:grey;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+#bookButton {
+    text-align: center;
+    border: inset;
+    padding: 10px;
+    border-width: 10px;
+    border-color:white;
+    border-radius: 10px;
+    background-color: darkblue;
+    position: relative;
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+h2 {
+position:initial;
+align-content: center;
+background-color: silver;
+background:transparent 50%;
+width:100%;
+height:fit-content;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    position:initial;
+    align-content: center;
+}
+
+.Item3 #hotelAPic {
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+
+.Grid-Container {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    }
+.Grid-Container > div {
+    grid-column: auto auto auto auto ;
+}
+
+.Item1  {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+/* screen */
+@media screen and (max-width:2400px){
+    .Item1 { 
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+    /* HotelA name */
+    .Item2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:2;
+        grid-row-end:3;
+    }
+/* hotelA image */
+    .Item3 {
+        grid-column-start:1 ;
+        grid-column-end:2 ;
+        grid-row-start:3 ;
+        grid-row-end:4 ;
+    }
+    /* HotelA activites */
+    .Item4 {
+        grid-column-start:2 ;
+        grid-column-end:3 ;
+        grid-row-start:2 ;
+        grid-row-end:4 ;
+    }
+    /* HotelA Booking overview */
+    .Item5 {
+        grid-column-start:3 ;
+        grid-column-end:4 ;
+        grid-row-start:2 ;
+        grid-row-end:4 ;
+    }
+    /* hotelA bookbutton */
+    .Item6 {
+        grid-column-start:4 ;
+        grid-column-end:5 ;
+        grid-row-start:2 ;
+        grid-row-end:4 ;
+    }
+   
+    /* hotelB name */
+    .Item7 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:4;
+        grid-row-end:5;
+    }
+    /* hotelB Image */
+    .Item8 {
+        grid-column-start:1 ;
+        grid-column-end:2 ;
+        grid-row-start:5 ;
+        grid-row-end:6 ;
+    }
+    /* HotelB Activities */
+    .Item9 {
+        grid-column-start:2 ;
+        grid-column-end:3 ;
+        grid-row-start:4 ;
+        grid-row-end:6 ;
+    }
+    /* HotelB Booking Overview */
+    .Item10 {
+        grid-column-start:3 ;
+        grid-column-end:4 ;
+        grid-row-start:4 ;
+        grid-row-end:6 ;
+    }
+    /* HotelB Booking Button */
+    .Item11 {
+        grid-column-start:4 ;
+        grid-column-end:5 ;
+        grid-row-start:4 ;
+        grid-row-end:6 ;
+    }
+    /* HotelC name */
+    .Item12 {
+        grid-column-start:1 ;
+        grid-column-end:2 ;
+        grid-row-start:6 ;
+        grid-row-end:7 ;
+    } 
+    /* HotelC Image */
+    .Item13 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:7;
+        grid-row-end:8;
+    }
+/* HotelC activities */
+    .Item14 {
+        grid-column-start:2 ;
+        grid-column-end:3 ;
+        grid-row-start:6 ;
+        grid-row-end:8 ;
+    }
+    /* HotelC booking overview */
+    .Item15 {
+        grid-column-start:3 ;
+        grid-column-end:4 ;
+        grid-row-start:6 ;
+        grid-row-end:8 ;
+    }
+    /* HotelC booking Button */
+    .Item16 {
+        grid-column-start:4 ;
+        grid-column-end:5 ;
+        grid-row-start:6 ;
+        grid-row-end:8 ;
+    }
+    /* HotelD name */
+    .Item17 {
+        grid-column-start:1 ;
+        grid-column-end:2 ;
+        grid-row-start:8 ;
+        grid-row-end:9 ;
+    }
+    /* HotelD image */
+    .Item18 {
+        grid-column-start:1 ;
+        grid-column-end:2 ;
+        grid-row-start:9 ;
+        grid-row-end:10 ;
+    } 
+    /* hotelD activities */
+    .Item19 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:8;
+        grid-row-end:10;
+    }
+/* HotelD Booking Overview */
+    .Item20 {
+        grid-column-start:3 ;
+        grid-column-end:4 ;
+        grid-row-start:8 ;
+        grid-row-end:10 ;
+    }
+    /* HotelD Book Button */
+    .Item21 {
+        grid-column-start:4 ;
+        grid-column-end:5 ;
+        grid-row-start:8 ;
+        grid-row-end:10 ;
+    }
+
+    /* Logout Button */
+    .Item22 {
+        grid-column-start:1 ;
+        grid-column-end:3 ;
+        grid-row-start:10 ;
+        grid-row-end:11 ;
+    }
+    /* new Island Button */
+    .Item23 {
+        grid-column-start:3 ;
+        grid-column-end:5 ;
+        grid-row-start:10 ;
+        grid-row-end:11 ;
+    }
+   
+}
+
+
+/* tablet */
+@media screen and (max-width:550px){
+    .Item1 { 
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+        /* HotelA name */
+        .Item2 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start:2;
+            grid-row-end:3;
+        }
+    /* hotelA image */
+        .Item3 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:3 ;
+            grid-row-end:4 ;
+        }
+        /* HotelA activites */
+        .Item4 {
+            grid-column-start:1 ;
+            grid-column-end:2 ;
+            grid-row-start:4 ;
+            grid-row-end:5 ;
+        }
+        /* HotelA Booking overview */
+        .Item5 {
+            grid-column-start:2 ;
+            grid-column-end:3 ;
+            grid-row-start:2 ;
+            grid-row-end:5 ;
+        }
+        /* hotelA bookbutton */
+        .Item6 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:5 ;
+            grid-row-end:6 ;
+        }
+       
+        /* hotelB name */
+        .Item7 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start:6;
+            grid-row-end:7;
+        }
+        /* hotelB Image */
+        .Item8 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:7 ;
+            grid-row-end:8 ;
+        }
+        /* HotelB Activities */
+        .Item9 {
+            grid-column-start:1 ;
+            grid-column-end:2 ;
+            grid-row-start:8 ;
+            grid-row-end:9 ;
+        }
+        /* HotelB Booking Overview */
+        .Item10 {
+            grid-column-start:2 ;
+            grid-column-end:3 ;
+            grid-row-start:8 ;
+            grid-row-end:9 ;
+        }
+        /* HotelB Booking Button */
+        .Item11 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:9 ;
+            grid-row-end:10 ;
+        }
+        /* HotelC name */
+        .Item12 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:10 ;
+            grid-row-end:11 ;
+        } 
+        /* HotelC Image */
+        .Item13 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start:11;
+            grid-row-end:12;
+        }
+    /* HotelC activities */
+        .Item14 {
+            grid-column-start:1 ;
+            grid-column-end:2 ;
+            grid-row-start:12 ;
+            grid-row-end:13 ;
+        }
+        /* HotelC booking overview */
+        .Item15 {
+            grid-column-start:2 ;
+            grid-column-end:3 ;
+            grid-row-start:12 ;
+            grid-row-end:13 ;
+        }
+        /* HotelC booking Button */
+        .Item16 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:14;
+            grid-row-end:15 ;
+        }
+        /* HotelD name */
+        .Item17 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:14 ;
+            grid-row-end:15 ;
+        }
+        /* HotelD image */
+        .Item18 {
+            grid-column-start:1 ;
+            grid-column-end:2 ;
+            grid-row-start:15 ;
+            grid-row-end:16 ;
+        } 
+        /* hotelD activities */
+        .Item19 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start:16;
+            grid-row-end:17;
+        }
+    /* HotelD Booking Overview */
+        .Item20 {
+            grid-column-start:2 ;
+            grid-column-end:3 ;
+            grid-row-start:16 ;
+            grid-row-end:17 ;
+        }
+        /* HotelD Book Button */
+        .Item21 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:17 ;
+            grid-row-end:18 ;
+        }
+    
+        /* Logout Button */
+        .Item22 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:19 ;
+            grid-row-end:20 ;
+        }
+        /* new Island Button */
+        .Item23 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:18 ;
+            grid-row-end:19 ;
+        }
+       
+   
+    }
+/* phone  */
+@media screen and (max-width:375px) {
+    .Grid-Container > div{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .Item1 { 
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+        /* HotelA name */
+        .Item2 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start:2;
+            grid-row-end:3;
+        } 
+    /* hotelA image */
+        .Item3 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:3 ;
+            grid-row-end:4 ;
+        }
+        /* HotelA activites */
+        .Item4 {
+            grid-column-start:1 ;
+            grid-column-end:2 ;
+            grid-row-start:4 ;
+            grid-row-end:5 ;
+        }
+        /* HotelA Booking overview */
+        .Item5 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:2 ;
+            grid-row-end:5 ;
+        }
+        /* hotelA bookbutton */
+        .Item6 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:5 ;
+            grid-row-end:6 ;
+        }
+       
+        /* hotelB name */
+        .Item7 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start:6;
+            grid-row-end:7;
+        }
+        /* hotelB Image */
+        .Item8 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:7 ;
+            grid-row-end:8 ;
+        }
+        /* HotelB Activities */
+        .Item9 {
+            grid-column-start:1 ;
+            grid-column-end:2 ;
+            grid-row-start:8 ;
+            grid-row-end:9 ;
+        }
+        /* HotelB Booking Overview */
+        .Item10 {
+            grid-column-start:2 ;
+            grid-column-end:3 ;
+            grid-row-start:8 ;
+            grid-row-end:9 ;
+        }
+        /* HotelB Booking Button */
+        .Item11 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:9 ;
+            grid-row-end:10 ;
+        }
+        /* HotelC name */
+        .Item12 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:10 ;
+            grid-row-end:11 ;
+        } 
+        /* HotelC Image */
+        .Item13 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start:11;
+            grid-row-end:12;
+        }
+    /* HotelC activities */
+        .Item14 {
+            grid-column-start:1 ;
+            grid-column-end:2 ;
+            grid-row-start:12 ;
+            grid-row-end:13 ;
+        }
+        /* HotelC booking overview */
+        .Item15 {
+            grid-column-start:2 ;
+            grid-column-end:3 ;
+            grid-row-start:12 ;
+            grid-row-end:13 ;
+        }
+        /* HotelC booking Button */
+        .Item16 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:14;
+            grid-row-end:15 ;
+        }
+        /* HotelD name */
+        .Item17 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:14 ;
+            grid-row-end:15 ;
+        }
+        /* HotelD image */
+        .Item18 {
+            grid-column-start:1 ;
+            grid-column-end:2 ;
+            grid-row-start:15 ;
+            grid-row-end:16 ;
+        } 
+        /* hotelD activities */
+        .Item19 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start:16;
+            grid-row-end:17;
+        }
+    /* HotelD Booking Overview */
+        .Item20 {
+            grid-column-start:2 ;
+            grid-column-end:3 ;
+            grid-row-start:16 ;
+            grid-row-end:17 ;
+        }
+        /* HotelD Book Button */
+        .Item21 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:17 ;
+            grid-row-end:18 ;
+        }
+    
+        /* Logout Button */
+        .Item22 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:19 ;
+            grid-row-end:20 ;
+        }
+        /* new Island Button */
+        .Item23 {
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+            grid-row-start:18 ;
+            grid-row-end:19 ;
+        }
+   
+        
+       
+}
